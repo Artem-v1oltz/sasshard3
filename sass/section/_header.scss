@@ -1,0 +1,44 @@
+.header {
+    padding: 20px 0;
+    background-color: var(--white-color);
+    border-bottom: 1px solid var(--border-color);
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    &__button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        background-color: var(--primary-color);
+        color: var(--white-color);
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: var(--secondary-color);
+        }
+    }
+}
+
+.logo {
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation {
+    display: flex;
+    gap: 30px;
+
+    a {
+        transition: color 0.3s;
+
+        &:hover {
+            color: var(--primary-color);
+        }
+    }
+}
